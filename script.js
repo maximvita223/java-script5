@@ -122,5 +122,5 @@ const en = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
 const ru = ["понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье"];
 let result = {};
 
-en.map((item, index) => result[item] = de[index])
+en.map((item, index) => result[item] = ru[index])
 console.log(result)
